@@ -12,7 +12,7 @@ public class HelloController {
     public String first(Model model){
         System.out.println("hello 제발..");
         model.addAttribute("name", "내 이름은 박영상!");
-        return "first"; 
+        return "first";  
     }
     
 }
