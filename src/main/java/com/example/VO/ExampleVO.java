@@ -1,10 +1,8 @@
 package com.example.VO;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.Data;
 
-@Getter
-@Setter
+@Data
 public class ExampleVO {
     private String id;
     private String password;
