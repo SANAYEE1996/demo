@@ -9,7 +9,7 @@ public class exampleController {
     
     public static void ex(){
         ExampleVO evo = new ExampleVO();
-        evo.setId("오~");
+        evo.setId("오~"); 
         System.out.println(evo.getId());
     }
 }
